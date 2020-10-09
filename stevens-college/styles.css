@@ -1,1 +1,19 @@
-/* Add your CSS here */
+* {
+    box-sizing: border-box;
+}
+h1 {
+    font-size:50px;
+  }
+p {
+    font-size:20px;
+}
+.buttons {
+    display: flex;
+    width: 25;
+    justify-content: center;
+}
+.button {
+    padding: 15px 30px;
+    margin: 10px;
+    background: darkred;
+}

@@ -1,1 +1,27 @@
-/* Add your CSS here */
+* {
+    box-sizing: border-box;
+}
+.main {
+    border: #f5f5f5 solid 1px;
+    display: flex;
+}
+.sidebar {
+    border-right: #f5f5f5 solid 1px;
+    width: 150px;
+    float: 200px;
+}
+.sideelement {
+    padding: 1px 20px;
+}
+.selected {
+    border-left: black solid 2px;
+    padding-left: 18px;
+    font-weight: bold;
+}
+.sideheader {
+    color: silver;
+    margin: 0px 7px;
+}
+.info {
+    padding-left: 50px;
+}
