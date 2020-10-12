@@ -1,1 +1,29 @@
-/* Add your CSS here */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    color: darkorange;
+    margin: 7px;
+}
+p {
+    font-size: 13px;
+    color: gray;
+    margin: 7px;
+}
+h2 {
+    margin: 25px 7px;
+    padding-bottom: 5px;
+    color: black;
+    border-bottom: 1px solid #f5f5f5
+}
+.cats1, .cats2 {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.book {
+    width: 125px;
+    height: 200px;
+}

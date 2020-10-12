@@ -1,1 +1,41 @@
-/* Add your CSS here */
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+h1 {
+    display: block;
+    width: 30%;
+    margin: 50px auto 25px;
+}
+h2 {
+    color: gray;
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.links {
+    width: 400px;
+    margin: 40px auto 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.blurbs {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    
+}
+.blurb {
+    width: 35%; 
+    margin: 0px 25px;
+}
+h3, p{
+    text-align: start;
+}
+p {
+    color: gray;
+}
+.bimg {
+    float: left;
+    padding: 20px;
+}

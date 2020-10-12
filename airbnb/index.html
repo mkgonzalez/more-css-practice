@@ -1,28 +1,53 @@
-<!-- Markup this content with HTML here -->
-[Page Title: Airbnb]
-
-
-Book unique homes and experiences.
-
-
-Where
-[Text Input]
-
-Check In
-[Date Input]
-
-Check Out
-[Date Input]
-
-Guests
-[Number Input]
-
-Search
-[Submit Input]
-
-
-Explore Airbnb
-Homes
-Experiences
-Restaurants
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Airbnb</title>
+    <link href="/Users/mkgonzalez201/code/more-css-practice/airbnb/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="head">
+      <h1>Book unique homes and experiences.</h1>
+    </div>
+    <form>
+      <label for="location">WHERE</label>
+      <input type="text" id="location" value="Anywhere">
+      <label for="location">CHECK IN</label>
+      <input type="text" id="chin" value="mm/dd/yyyy">
+      <label for="location">CHECK OUT</label>
+      <input type="text" id="chout" value="mm/dd/yyyy">
+      <label for="location">GUESTS</label>
+      <input type="text" id="guests" value="1 guest">
+      <input type="submit" value="Search">
+    </form>
+    <h2>Explore Airbnb</h2>
+    <div class="links">
+      <div class="element">
+        <div class="eimg">
+          <img src="https://via.placeholder.com/100">
+        </div>
+        <div class="etext">
+          <p>Homes</p>
+        </div>
+      </div>
+      <div class="element">
+        <div class="eimg">
+          <img src="https://via.placeholder.com/100">
+        </div>
+        <div class="etext">
+          <p>Experiences</p>
+        </div>
+      </div>
+      <div class="element">
+        <div class="eimg">
+          <img src="https://via.placeholder.com/100">
+        </div>
+        <div class="etext">
+          <p>Restaurants</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
